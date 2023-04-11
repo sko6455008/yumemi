@@ -24,7 +24,7 @@ function App() {
           {count}
         </button>
         <p>
-          Edit <code>src/App.tsx</code>
+          Test <code>src/App.tsx</code>
         </p>
       </div>
       <p className="read-the-docs">
