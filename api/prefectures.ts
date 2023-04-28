@@ -15,5 +15,6 @@ export default async function fetchPrefectures(
     },
   });
   const data = await response.json();
+  res.setHeader("Cache-Control", "s-maxage=86400 immutable");
   res.json(data);
 }
