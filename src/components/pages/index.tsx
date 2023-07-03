@@ -1,9 +1,9 @@
 import { QueryClient, QueryClientProvider } from "react-query";
-import PrefecturesContainer from "./components/features/prefectures/container/PrefecturesContainer";
+import PrefecturesContainer from "../features/prefectures/container/PrefecturesContainer";
 
 const queryClient = new QueryClient();
 
-function App() {
+function Prefectures() {
   return (
     <QueryClientProvider client={queryClient}>
       <div style={{ margin: "2em" }}>
@@ -13,4 +13,4 @@ function App() {
   );
 }
 
-export default App;
+export default Prefectures;
