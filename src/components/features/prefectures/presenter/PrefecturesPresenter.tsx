@@ -9,7 +9,7 @@ type PresenterProps = {
 function PrefecturesPresenter({ data, isLoading, error }: PresenterProps) {
   console.log(isLoading);
   console.log(error);
-  console.log(data?.result);
+  console.log(data);
   return (
     <div>
       <h2>一覧</h2>
