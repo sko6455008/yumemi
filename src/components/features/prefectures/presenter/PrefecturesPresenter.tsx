@@ -1,7 +1,7 @@
-import { ApiResponse } from "../../../../common/type";
+import { PrefectureResponse } from "../prefectures.type";
 
 type PresenterProps = {
-  data: ApiResponse | undefined;
+  data: PrefectureResponse | undefined;
   isLoading: boolean;
   error: unknown;
 };

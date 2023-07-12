@@ -1,4 +1,4 @@
-import { PopulationResponse } from "../../../../common/type";
+import { PopulationResponse } from "../populations.type";
 
 type PresenterProps = {
   data: PopulationResponse | undefined;

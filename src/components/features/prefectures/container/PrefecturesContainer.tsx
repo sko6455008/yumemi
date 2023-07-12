@@ -1,8 +1,8 @@
 import { useQuery } from "react-query";
-import { ApiResponse } from "../../../../common/type";
+import { PrefectureResponse } from "../prefectures.type";
 import PrefecturesPresenter from "../presenter/PrefecturesPresenter";
 
-async function fetchApi(): Promise<ApiResponse> {
+async function fetchApi(): Promise<PrefectureResponse> {
   const res = await fetch("/api/prefectures");
   const data = await res.json();
   return data;

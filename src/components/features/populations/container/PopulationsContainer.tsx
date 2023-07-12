@@ -1,5 +1,5 @@
 import { useQuery } from "react-query";
-import { PopulationResponse } from "../../../../common/type";
+import { PopulationResponse } from "../populations.type";
 import PopulationsPresenter from "../presenter/PopulationsPresenter";
 
 async function fetchApi(): Promise<PopulationResponse> {
